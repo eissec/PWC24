@@ -492,12 +492,6 @@ a.eventButton {
   gap: 5px;
 }
 
-.peekCardIconContainer {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
 .peekCardIcon {
   max-height: 14px;
   align-items: center;
@@ -1255,7 +1249,11 @@ a.eventButton {
 
   .heroContainer {
     border-radius: 0;
-    padding: 0;
+    padding: 40px;
+  }
+
+  .heroContainer > img {
+    width: 80% !important;
   }
 
   .headerCollage {
@@ -1275,9 +1273,13 @@ a.eventButton {
   }
 
   #peekCardsContainer {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 0;
+  }
+
+  .gridMobileFW {
+    grid-column: span 2;
   }
 
   .peekCard {
@@ -1291,21 +1293,16 @@ a.eventButton {
     padding: 10px 7px;
   }
 
-  .peekCardIconContainer {
-    width: fit-content;
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-
   .peekCardIcon {
     height: 26px;
   }
 
   .topContainer {
     gap: 20px;
+  }
+
+  .bigEventCard {
+    flex-direction: column;
   }
 
   .bigEventCard > img {
