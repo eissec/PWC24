@@ -333,7 +333,6 @@ a.eventButton {
   justify-content: space-between;
   overflow: hidden;
   border-bottom: 4px solid var(--greyBlack);
-  padding: 40px;
 }
 
 .winnerCongrats {
@@ -1252,11 +1251,10 @@ a.eventButton {
 
   .heroContainer {
     border-radius: 0;
-    padding: 40px;
   }
 
   .heroContainer > img {
-    width: 80% !important;
+    width: 100% !important;
   }
 
   .headerCollage {
