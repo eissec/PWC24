@@ -100,6 +100,11 @@ h1 {
   padding-top: 40px;
 }
 
+.winnerBigImage {
+  object-fit: contain;
+  width: 100%;
+}
+
 h2 {
   font-size: 32px;
   font-weight: 700;
@@ -318,7 +323,6 @@ a.eventButton {
 }
 
 .heroContainer {
-  background-image: url(https://images.chesscomfiles.com/uploads/ad_image/17461.e3dd1383.jpg);
   background-size: cover;
   background-position: center;
   height: fit-content;
